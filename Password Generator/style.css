@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: #002339;
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    position: relative;
+    top: 12rem;
+    left: 14rem;
+    font-size: 2.5rem;
+}
+h1 span{
+    color: darkgreen;
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+#password{
+    position: absolute;
+    top: 20rem;
+    left: 14rem;
+    height: 4rem;
+    width: 30rem;
+}
+.first img{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 20.5rem;
+    left: 40.5rem;
+}
+.btn{
+    position: absolute;
+    left: 14rem;
+    top: 26rem;
+    background-color: mediumpurple;
+    width: 16rem;
+    height: 3.5rem;
+    color: #fff;
+}
+.btn img{
+    height: 2.5rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+}
